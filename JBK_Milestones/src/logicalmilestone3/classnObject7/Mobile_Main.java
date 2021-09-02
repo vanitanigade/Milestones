@@ -26,7 +26,7 @@ public class Mobile_Main {
 			System.out.println(mblist[i]);
 		}
 */													//2nd e.g. without scanner
-		int model_no[] = {111,222,333,444,555};
+	/*	int model_no[] = {111,222,333,444,555};
 		String model_name[] = {"LG","nokia","apple","samsung","oppo"};
 		float cost[] = {11000,12000,53000,14000,15000};
 		
@@ -54,6 +54,19 @@ public class Mobile_Main {
 				maxNo = model_no[i];
 		}
 		System.out.println("maximum model_no is: " + maxNo);
-	}
+	*/
+																		//3rd way
+		Mobile[] m = new Mobile[5];
+		m[0]=new Mobile(192513,"Moto G6",20000);
+		System.out.println(m[0]);
+		m[1]=new Mobile(1917,"OnePlus 7 Pro",53000);
+		System.out.println(m[1]);
+		m[2]=new Mobile(02,"Mi 10i 5G",24000);
+		System.out.println(m[2]);
+		m[3]=new Mobile(625,"Samsung Galaxy F62",25999);
+		System.out.println(m[3]);
+		m[4]=new Mobile(303, "APPLE iPhone 12 Pro Max",125900);
+		System.out.println(m[4]);
+	}  
 
 }

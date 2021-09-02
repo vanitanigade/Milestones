@@ -10,12 +10,11 @@ public class Student2_Main {
 		Student2 s1 = new Student2(101,"abhi", sub1);
 		Student2 s2 = new Student2(102,"krish", sub2);
 		
+		System.out.println("s1: " + s1);
+		System.out.println("s2: " + s2);		//OR
+		System.out.println("====================================");
 		s1.display();		
-		s2.display();				//OR
-		System.out.println(s1);
-		System.out.println(s2);
-				
-		
+		s2.display();				
 		
 	}
 
